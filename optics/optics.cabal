@@ -154,6 +154,7 @@ test-suite optics-tests
   import:           language
   hs-source-dirs:   tests
 
+  buildable: False
   -- inspection-testing doesn't compile with GHCJS
   if impl(ghcjs)
     buildable: False
